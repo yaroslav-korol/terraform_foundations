@@ -1,0 +1,10 @@
+---
+description: Git commit conventions for this project
+alwaysApply: true
+---
+
+# Git Commit Rules
+
+- NEVER add `--trailer "Made-with: Cursor"` or any `Made-with:` trailer to commits
+- Follow conventional commits: `type(scope): Description` or `type: Description`
+- Types in use: `feat`, `chore`, `fix`, `refactor`, `docs`
