@@ -8,6 +8,7 @@ services:
     environment:
       - DEBUG=1
       - LOCALSTACK_AUTH_TOKEN=${LOCALSTACK_AUTH_TOKEN}
+      - PERSISTENCE=1
     volumes:
       - "./localstack-volume:/var/lib/localstack"
       - "/var/run/docker.sock:/var/run/docker.sock"
